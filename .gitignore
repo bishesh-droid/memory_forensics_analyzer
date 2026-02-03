@@ -1,6 +1,60 @@
+# ================================
+# Memory Forensics Dump Files
+# ================================
+*.raw
+*.vmem
+*.dmp
+*.mem
+*.dd
+*.img
+
+# Compressed forensic datasets
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+# ================================
+# Volatility / Forensics Tool Output
+# ================================
+volatility_output/
+volatility3_output/
+*.sqlite
+*.db
+*.csv
+*.json
+
+# ================================
+# Logs & Reports
+# ================================
+*.log
+reports/
+output/
+analysis_results/
+
+# ================================
+# Python
+# ================================
+__pycache__/
 *.pyc
-*~
-__pycache__
-.DS_Store
+*.pyo
+*.pyd
+venv/
 .env
-volatility
+
+# ================================
+# OS / Editor junk
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# Temporary / Scratch Files
+# ================================
+*.tmp
+*.swp
+*.bak
+
