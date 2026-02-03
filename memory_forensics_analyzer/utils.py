@@ -5,7 +5,7 @@ def run_volatility_command(command, memory_dump_path):
     """
     Runs a Volatility 3 command and returns the output.
     """
-    volatility_path = "venv/bin/vol" 
+    volatility_path = "vol" 
 
     cmd = [
         volatility_path,

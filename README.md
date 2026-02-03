@@ -41,27 +41,37 @@ This project provides a comprehensive tool for analyzing memory dumps to identif
 
 To use the memory forensics analyzer, you will need a memory dump file (e.g., a `.bin` or `.vmem` file).
 
+You can run the analyzer either as a Python module or using the installed command-line script.
+
+### Using the Command-Line Script (Recommended)
+
+After installation, you can use the `mem-analyze` script:
+
+```bash
+mem-analyze --file <path_to_memory_dump> --command <plugin_name>
+```
+
 ### Basic Execution
 
 ```bash
-python -m memory_forensics_analyzer.main <path_to_memory_dump> --plugin <plugin_name>
+python -m memory_forensics_analyzer.main --file <path_to_memory_dump> --command <plugin_name>
 ```
 
 ### Examples
 
 *   **List processes:**
     ```bash
-    python -m memory_forensics_analyzer.main /path/to/memory_dump.raw --plugin pslist
+    mem-analyze --file /path/to/memory_dump.raw --command pslist
     ```
 
 *   **Scan network connections:**
     ```bash
-    python -m memory_forensics_analyzer.main /path/to/memory_dump.raw --plugin netscan
+    mem-analyze --file /path/to/memory_dump.raw --command netscan
     ```
 
 *   **List loaded modules:**
     ```bash
-    python -m memory_forensics_analyzer.main /path/to/memory_dump.raw --plugin modscan
+    mem-analyze --file /path/to/memory_dump.raw --command modscan
     ```
 
 ## Project Structure

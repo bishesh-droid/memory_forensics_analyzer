@@ -1,12 +1,6 @@
 import argparse
 import sys
 import pkgutil
-from . import utils
-from . import plugins
-
-import argparse
-import sys
-import pkgutil
 import importlib.util
 import os
 from . import utils
