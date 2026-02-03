@@ -1,0 +1,25 @@
+[subdomains] - www.naukri.com
+[subdomains] - logs.naukri.com
+[subdomains] - lg.naukri.com
+[url] - [code-200] - https://www.naukri.com/jobs-in-india
+[javascript] - https://static.naukimg.com/s/9/121/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+[javascript] - https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js
+[javascript] - https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js
+[javascript] - https://static.naukimg.com/s/9/121/_next/static/chunks/8139-4360348199a77d11.js
+[javascript] - https://static.naukimg.com/s/9/121/_next/static/chunks/main-app-41bfa04a3d4c7c6a.js
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - static/chunks/6394-215001aa64adeba7.js
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - static/chunks/7951-e8c791abaab72e96.js
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - static/chunks/
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - static/css/
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - https://static.naukimg.com/s/9/121/_next/
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/webpack-5b9191f999ffb3ed.js] - text/css
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js] - /a/i
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js] - /a/b
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js] - /./
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/8139-4360348199a77d11.js] - text/x-component
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/8139-4360348199a77d11.js] - multipart/form-data
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js] - https://reactjs.org/docs/error-decoder.html?invariant=
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js] - http://www.w3.org/2000/svg
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js] - http://www.w3.org/1998/Math/MathML
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js] - http://www.w3.org/1999/xlink
+[linkfinder] - [from: https://static.naukimg.com/s/9/121/_next/static/chunks/2443530c-23a8d6970c885865.js] - http://www.w3.org/XML/1998/namespace
