@@ -5,7 +5,7 @@ def run_volatility_command(command, memory_dump_path):
     """
     Runs a Volatility 3 command and returns the output.
     """
-    volatility_path = "vol" 
+    volatility_path = "vol"
 
     cmd = [
         volatility_path,
@@ -89,36 +89,6 @@ def parse_netscan(output):
 
     return connections
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def parse_modscan(output):
     """
     Parses the output of the modscan command.
@@ -145,31 +115,3 @@ def parse_modscan(output):
         modules.append(module)
 
     return modules
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
