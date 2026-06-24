@@ -1,2 +1,5 @@
 volatility3
 pefile
+yara-python
+fastapi
+uvicorn[standard]

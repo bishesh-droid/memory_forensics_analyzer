@@ -1,0 +1,54 @@
+# Memory Forensics Analyzer — Default Configuration
+# Copy to config.yaml and customize
+
+volatility_path: "vol"
+symbol_tables_dir: ""
+temp_dir: "/tmp/mfa"
+log_level: "INFO"
+
+yara:
+  enabled: true
+  rules_dir: ""
+  timeout: 60
+  max_strings: 10000
+
+threat_intel:
+  virustotal_api_key: ""
+  abuseipdb_api_key: ""
+  otx_api_key: ""
+  mitre_attack_version: "14.1"
+  cache_ttl: 86400
+
+report:
+  output_dir: "reports"
+  format: "html"
+  include_raw_data: false
+  company_name: ""
+  analyst_name: ""
+  classification: "CONFIDENTIAL"
+
+api:
+  host: "127.0.0.1"
+  port: 8443
+  ssl_certfile: ""
+  ssl_keyfile: ""
+  api_key: ""
+  cors_origins:
+    - "http://localhost:3000"
+
+detection:
+  anomaly_threshold: 0.7
+  entropy_threshold: 7.0
+  max_injection_size: 1048576
+
+case:
+  case_dir: "cases"
+  auto_hash: true
+  chain_of_custody: true
+
+enterprise:
+  license_key: ""
+  max_concurrent_analyses: 4
+  siem_endpoint: ""
+  siem_protocol: "syslog"
+  rbac_enabled: false
